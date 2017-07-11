@@ -1,0 +1,10 @@
+UPDATE ElectronicMail
+SET type =
+  CASE
+    WHEN type = 'work' THEN 'home'
+    WHEN type = 'home' THEN 'work'
+  END
+WHERE type = 'home' OR type = 'work';
+
+Query OK, 1610 rows affected (0.02 sec)
+Rows matched: 1610  Changed: 1610  Warnings: 0

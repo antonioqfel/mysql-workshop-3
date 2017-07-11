@@ -1,0 +1,67 @@
+SELECT city, country
+FROM Address
+WHERE country IN ('Canada', 'Austria', 'Isle of Man', 'Ireland','Japan')
+GROUP BY city
+ORDER BY country;
+
++----------------+-------------+
+| city           | country     |
++----------------+-------------+
+| Dubbo          | Austria     |
+| Tauranga       | Austria     |
+| Shimla         | Austria     |
+| Edmundston     | Austria     |
+| Siedlce        | Austria     |
+| Zwickau        | Austria     |
+| Bodmin         | Austria     |
+| Alness         | Austria     |
+| Hamburg        | Austria     |
+| Vienna         | Austria     |
+| Pietraroja     | Canada      |
+| Moulins        | Canada      |
+| Anápolis       | Canada      |
+| Satara         | Canada      |
+| Angers         | Canada      |
+| Tirrases       | Canada      |
+| Rollegem       | Canada      |
+| Cork           | Canada      |
+| Baulers        | Canada      |
+| Springfield    | Canada      |
+| San Francisco  | Canada      |
+| Mabompr�       | Canada      |
+| Calmar         | Canada      |
+| Quesada        | Canada      |
+| Hillsboro      | Canada      |
+| Jackson        | Ireland     |
+| Cartago        | Ireland     |
+| Cagnes-sur-Mer | Ireland     |
+| Galway         | Ireland     |
+| Assen          | Ireland     |
+| Chestermere    | Ireland     |
+| Kraków         | Ireland     |
+| Lasnigo        | Ireland     |
+| Terneuzen      | Ireland     |
+| Raj Nandgaon   | Ireland     |
+| Meridian       | Ireland     |
+| Ceyhan         | Isle of Man |
+| Belfast        | Isle of Man |
+| Kailua         | Isle of Man |
+| Horsham        | Isle of Man |
+| Chartres       | Isle of Man |
+| Bremerhaven    | Isle of Man |
+| Ogbomosho      | Isle of Man |
+| Denderbelle    | Isle of Man |
+| San Vicente    | Isle of Man |
+| Nagaon         | Isle of Man |
+| Pabianice      | Isle of Man |
+| Dover          | Isle of Man |
+| Rzeszów        | Japan       |
+| Houston        | Japan       |
+| İslahiye       | Japan       |
+| Milena         | Japan       |
+| Bozeman        | Japan       |
+| Pontevedra     | Japan       |
+| Abbeville      | Japan       |
+| Berlin         | Japan       |
++----------------+-------------+
+56 rows in set (0.00 sec)
