@@ -1,0 +1,15 @@
+SELECT Phone.subtype, COUNT(*) AS total_of_numberS
+FROM Phone JOIN Entry
+ON Phone.entryId = Entry.id
+WHERE Entry.birthday >= '1950-01-01' AND Entry.birthday <='1960-12-31'
+GROUP BY Phone.subtype
+ORDER BY total_of_numbers;
+
++----------+------------------+
+| subtype  | total_of_numberS |
++----------+------------------+
+| fax      |              148 |
+| cellular |              149 |
+| landline |              187 |
++----------+------------------+
+3 rows in set (0.00 sec)
