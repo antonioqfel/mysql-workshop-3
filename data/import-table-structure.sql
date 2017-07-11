@@ -28,13 +28,13 @@ CREATE TABLE IF NOT EXISTS `decodemtl_addressbook_import`.`Account`  (
 
 CREATE TABLE IF NOT EXISTS `decodemtl_addressbook_import`.`AddressBook`  (
   id INT AUTO_INCREMENT,
-  acoountId INT,
+  accountId INT,
   name VARCHAR(255) NOT NULL,
   password VARCHAR(20) NOT NULL,
   createdON DATETIME NOT NULL,
   modifiedON DATETIME,
   PRIMARY KEY (id),
-  FOREIGN KEY (acoountId) REFERENCES Account (id) ON DELETE CASCADE
+  FOREIGN KEY (accountId) REFERENCES Account (id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS `decodemtl_addressbook_import`.`Entry`  (
