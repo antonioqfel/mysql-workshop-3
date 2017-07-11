@@ -1,0 +1,76 @@
+SELECT firstName, name
+FROM Entry JOIN AddressBook
+ON Entry.AddressBookId = AddressBook.id
+WHERE AddressBook.name = "Pharetra Ut Limited";
+
++-------------+---------------------+
+| firstName   | name                |
++-------------+---------------------+
+| Zelenia     | Pharetra Ut Limited |
+| Abdul       | Pharetra Ut Limited |
+| Idola       | Pharetra Ut Limited |
+| Illana      | Pharetra Ut Limited |
+| Winifred    | Pharetra Ut Limited |
+| Buckminster | Pharetra Ut Limited |
+| Heidi       | Pharetra Ut Limited |
+| Nell        | Pharetra Ut Limited |
+| Ciara       | Pharetra Ut Limited |
+| Sylvia      | Pharetra Ut Limited |
+| Caryn       | Pharetra Ut Limited |
+| Dieter      | Pharetra Ut Limited |
+| Jamalia     | Pharetra Ut Limited |
+| Herrod      | Pharetra Ut Limited |
+| Unity       | Pharetra Ut Limited |
+| Pascale     | Pharetra Ut Limited |
+| Colton      | Pharetra Ut Limited |
+| Jamal       | Pharetra Ut Limited |
+| Abel        | Pharetra Ut Limited |
+| Zena        | Pharetra Ut Limited |
+| Prescott    | Pharetra Ut Limited |
+| Idona       | Pharetra Ut Limited |
+| Paloma      | Pharetra Ut Limited |
+| Neve        | Pharetra Ut Limited |
+| Kyla        | Pharetra Ut Limited |
+| Kimberley   | Pharetra Ut Limited |
+| Jillian     | Pharetra Ut Limited |
+| Addison     | Pharetra Ut Limited |
+| Jacqueline  | Pharetra Ut Limited |
+| Sasha       | Pharetra Ut Limited |
+| Lee         | Pharetra Ut Limited |
+| Salvador    | Pharetra Ut Limited |
+| Yoko        | Pharetra Ut Limited |
+| Stacy       | Pharetra Ut Limited |
+| Halee       | Pharetra Ut Limited |
+| Blythe      | Pharetra Ut Limited |
+| Tad         | Pharetra Ut Limited |
+| Haley       | Pharetra Ut Limited |
+| Lara        | Pharetra Ut Limited |
+| Summer      | Pharetra Ut Limited |
+| Latifah     | Pharetra Ut Limited |
+| Faith       | Pharetra Ut Limited |
+| Stacey      | Pharetra Ut Limited |
+| Jennifer    | Pharetra Ut Limited |
+| Fulton      | Pharetra Ut Limited |
+| Colin       | Pharetra Ut Limited |
+| Thane       | Pharetra Ut Limited |
+| Caryn       | Pharetra Ut Limited |
+| Bo          | Pharetra Ut Limited |
+| Jamal       | Pharetra Ut Limited |
+| Amena       | Pharetra Ut Limited |
+| Melanie     | Pharetra Ut Limited |
+| Driscoll    | Pharetra Ut Limited |
+| Gareth      | Pharetra Ut Limited |
+| Colt        | Pharetra Ut Limited |
+| Martha      | Pharetra Ut Limited |
+| Sierra      | Pharetra Ut Limited |
+| Nita        | Pharetra Ut Limited |
+| Celeste     | Pharetra Ut Limited |
+| Kathleen    | Pharetra Ut Limited |
+| Samuel      | Pharetra Ut Limited |
+| Aaron       | Pharetra Ut Limited |
+| Cheyenne    | Pharetra Ut Limited |
+| Brett       | Pharetra Ut Limited |
+| Rebekah     | Pharetra Ut Limited |
++-------------+---------------------+
+65 rows in set (0.00 sec)
+
