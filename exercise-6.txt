@@ -1,0 +1,12 @@
+SELECT firstName, lastName, content AS phoneNumber
+FROM Phone JOIN Entry
+ON Phone.entryId = Entry.id
+WHERE firstName = 'Charlotte' AND lastName = 'Jenkins';
+
++-----------+----------+----------------+
+| firstName | lastName | phoneNumber    |
++-----------+----------+----------------+
+| Charlotte | Jenkins  | (110) 167-3420 |
+| Charlotte | Jenkins  | (605) 175-1334 |
++-----------+----------+----------------+
+2 rows in set (0.00 sec)

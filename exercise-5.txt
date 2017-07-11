@@ -1,0 +1,11 @@
+SELECT email
+FROM Account JOIN AddressBook
+ON Account.id = AddressBook.accountId
+WHERE AddressBook.id = 100;
+
++----------------------------------+
+| email                            |
++----------------------------------+
+| dapibus.quam@interdumligulaeu.ca |
++----------------------------------+
+1 row in set (0.01 sec)
