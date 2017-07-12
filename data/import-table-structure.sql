@@ -30,7 +30,6 @@ CREATE TABLE IF NOT EXISTS `decodemtl_addressbook_import`.`AddressBook`  (
   id INT AUTO_INCREMENT,
   accountId INT,
   name VARCHAR(255) NOT NULL,
-  password VARCHAR(20) NOT NULL,
   createdON DATETIME NOT NULL,
   modifiedON DATETIME,
   PRIMARY KEY (id),
